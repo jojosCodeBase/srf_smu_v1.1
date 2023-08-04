@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.gradient{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAABxCAIAAABeJ8SOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUZGNTZCRkM1ODIxMTFFMzlGQkNCQTg2MDFCRTc5MDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUZGNTZCRkQ1ODIxMTFFMzlGQkNCQTg2MDFCRTc5MDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFRkY1NkJGQTU4MjExMUUzOUZCQ0JBODYwMUJFNzkwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFRkY1NkJGQjU4MjExMUUzOUZCQ0JBODYwMUJFNzkwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PklJA/4AAAPWSURBVHjatJlbUiJBEEUBQVEJwp24/20p4BOYnDgxOWe65Gsu9VFBdLWdNzNv5cv58/Pz9/f3bDa7u7ub/Vk8mc/ntX9+ftZ+e3tb++l0mv27zufzYvbfa7lYLJbLZf16e3trafXt3uuF2o/HY+2r1aqxcPr7hQCKr68vdAYLmq/X67YIkkHx8fHRVuvTBIoSyLdZyDwcDo0F+aybm5vGgtUKSwLFfr9HGnZmR9sy00RzM4jTsmACRamEF/A/trAvjAVbwIj2YAJFKc9XbQsWv5GMj3yPYFOIFwWBbyPTPscKWATNfdp8SaAoVX3zfGufnp5qf39///u27tH9/T3YQzcVbfv+19psNrW/vr62FzhFf+SDtJgdssUYHZv/7QXuEQzmHd4vS4Vip+MlktGZJyNHQAE7S4kEijLE4+NjexvNfV8dzWwjUIR4URD49hgd8T9YsA6SubXb7Zbnodj58PDQtsDzyOd24BEWeOFI/SGnCRS1nDXQHEaMsdOIeD8UO9sL1hyLGJE94vgS4kWJQk8kIBn+Ice5DiygbouEspnjFVaAI/AFj1gy8YrTEDtLoL2Ato7jWMpWgLsdzRIoSgjfQwJ+cfUFXzhlxzsdWRMoOjXyw7cAaY6XzvvR2FkfRis84nvp6hcrwBdH+VzdiWTXNHjB0WzkLnE/5JES6GxqvxDN4CJI8QKnxM46vUJmd+4mUnBTzN0rsLMlOHdfYidvunOrPXRHzE7bxXU/txm+OIKE2FnL/aDjlaMTGEHn6itU/XYeQTd3Itb8Ut1ZpyFbIA1tsYUZYb7AhUlVGupH3HEhp6cCE8ljRx9iZ33GzHetZ52xDlabdPShGhwJ9gg+pyvxvTRfuqMPxU5PCJDJk91u92Nv2p1ILnaWQNd65A5XXGPe53dbLcpObIFfnE0dtcyIzm8JFPV596ljVz4yAr6QzUJTlHIsuqGU+x56dphq7tJF47tQDV7qeWaERbipSDN3x9iZy+zN9sbi3O38NtadIXaWC3wXnMEuxatJBgjVnZ4NwLlxxuh63FhCd2Qy77S0rix/PMVqudjpmsaT5q4sJ3zhNDpRKl7AP77tzGZ2uspxrg9NlCZVJtIcQYkgjqw86XnTFeoL11e2P5LHGU/oPxNFQSIly5Wl592evZJroz37y8uLJxRoOGKxR67Qs9dy7h4nmpfYmZ53usocO3SegMW9UWfcK7DTmZ0nnILF7ARFbqLk6Oj/QzDRxAquMjilysj17DDfE01it/+f56mz550hWxQvPEvzLIXfjiBmULorsjTbxRNwd46eCZZ1fgkwALq8piKdwYMbAAAAAElFTkSuQmCC);
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.title h2,
+.title h4{
+    font-weight: bold;
+}
+.justify{
+    text-align: justify;
+}
+
+.main{
+    padding: 2rem;
+}
+
+#nav-title {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+    /* Add spacing between navigation items */
+}
+
+.nav-link {
+    position: relative;
+    color: black;
+    /* Change the text color as an example */
+    text-decoration: none;
+    /* Remove default underline */
+}
+
+/* Add the underline with a smooth transition on hover */
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    /* Adjust the position of the underline as needed */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    /* Set the height of the underline */
+    background-color: blue;
+    /* Set the color of the underline */
+    transform: scaleX(0);
+    /* Start with no underline (scaleX(0)) */
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+    /* Add the transition effect for the 'transform' property */
+}
+
+/* Scale the underline back to its original width on hover */
+.nav-link:hover::before {
+    transform: scaleX(1);
+    /* Scale the underline back to its original width (scaleX(1)) */
+}
+
+@media screen and (max-width: 468px) {
+
+    /* styles for browsers larger than 960px; */
+    body {
+        font-family: 'Montserrat', sans-serif;
+        /* background-color: #fff; */
+    }
+
+    /* .navbar-brand{
+        display: block;
+    } */
+    #nav-title {
+        display: block;
+    }
+    ul li a{
+        text-align: center;
+    }
+    #srf-logo,
+    #smu-logo{
+        display: none;
+    }
+    .title{
+        padding: 6px;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    .title h4{
+        font-size: 15px;
+    }
+
+    .main{
+        padding: 1.5rem;
+    }
+}
